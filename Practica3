@@ -1,0 +1,54 @@
+Dado un precio calcular su descuento considerando, si el precio es mayor a 100 el descuento sera de 10%, de
+otro modo sera de solo 2%
+
+Datos de entrada:
+  Precio al que se le realizara el descuento
+Datos de salida:
+  Descuento que se va a realizar
+Dominio:
+  Numeros reales mayores a 0
+Algoritmo:
+ 1-Solicitar el numero al que se le realizara el descuento
+ 2-Verificar si ese numero es mayor a 100, en caso de que sea mayor a 100, multiplicar la cantidad que se dio por .10 y dar
+ ese resultado como la cantidad del descuento, si no es mayor a 100 pasar al paso 3
+ 3-Multiplicar la cantidad dada por .02 y dar ese resultado como la cantidad de descuento
+ 
+ 
+Un algoritmo que lea 2 numeros y calcule su suma,resta,multiplicacion y division de esos 2 numeros:
+
+Datos de entrada:
+  Numero1,Numero2
+Datos de salida:
+  Suma de numero 1 y numero 2,Resta de numero 1 y numero2, multiplicacion de numero 1 y numero2, division de numero 1 y numero 2
+Dominio:
+  Los numeros reales
+Algoritmo:
+ 1-Solicitar numero 1
+ 2-Solicitar numero 2
+ 3-Sumar numero 1 a numero 2, guardar resultado en la variable sum
+ 4-Restar numero 1 a numero 2, guardar resultado en variable res
+ 5-Multiplicar numero 1 por numero 2, guardar el resultado em variable mult
+ 6-Revisar si numero 2 es distinto de 0, En caso de que sea distinto de 0 Dividir
+ numero 1 entre numero 2 y guardar el resultado en variable div, despues mostrar los variables de sum,res,mult y div
+ si el numero es igual a 0 pasar al paso 7
+ 7-imprimir los valores sum,res,mult y mostrar un mensaje que diga "La division es indefinida"
+ 
+ Leer 3 numeros que denoten una fecha de dia,mes y año y verificar si es una fecha valida
+ 
+ Datos de entrada:
+  Ndia,Nmes,Naño
+ Datos de salida:
+  Si la fecha es valida o no
+ Dominio:
+  Numeros reales mayores o iguales a 1 y menores o iguales a 99
+ Algoritmo:
+  1-solicitar dia y guardar la variable en Ndia
+  2-solicitar mes y guardar en variable Nmes
+  3-solicitar año y guardar en variable Naño
+  4-Verificar que Ndia sea menor a 31 de ser asi pasar a paso 5, si no es asi mostrar la fecha no es valida
+  5-Verificar que Nmes sea menor a 12 de ser asi pasar a paso 6, si no es asi mostrar la fecha no es valida
+  6-Mostrar la fecha es valida
+  
+ 
+ 
+ 
